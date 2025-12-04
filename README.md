@@ -3,7 +3,7 @@
 <div align="center">
   <h3>A modern, responsive portfolio website showcasing my skills, experience, and projects</h3>
   <p>
-    <strong>Data Scientist | Full-Stack Developer | Machine Learning Enthusiast</strong>
+    <strong>Data Scientist | Full-Stack Developer | Machine Learning Engineer | AI Engineer</strong>
   </p>
 </div>
 
