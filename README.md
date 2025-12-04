@@ -171,7 +171,7 @@ I'm **Deepu Kumar**, a passionate Data Scientist and Full-Stack Developer with e
 ### Get in Touch
 
 - 📧 Email: deepuhemant18@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/deepuhemant](https://linkedin.com/in/deepuhemant)
+- 🔗 LinkedIn: [linkedin.com/in/deepuhemant](https://linkedin.com/in/deepu-kumar-45884220b/)
 - 💻 GitHub: [@Deepuhemant](https://github.com/Deepuhemant)
 - 🌐 Portfolio: [My Website](https://deepuhemant.github.io/My_Website/)
 
