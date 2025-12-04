@@ -24,18 +24,18 @@ export function Contact() {
           </div>
         </div>
 
-        <form onsubmit="event.preventDefault(); alert('Message sent (demo)!');" style="display: grid; gap: 20px;">
+        <form action="https://formspree.io/f/xanrbekj" method="POST" style="display: grid; gap: 20px;">
           <div style="display: grid; gap: 8px;">
             <label for="name" style="font-weight: 500;">Name</label>
-            <input type="text" id="name" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background-color: var(--bg-color); color: var(--text-primary);">
+            <input type="text" id="name" name="name" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background-color: var(--bg-color); color: var(--text-primary);">
           </div>
           <div style="display: grid; gap: 8px;">
             <label for="email" style="font-weight: 500;">Email</label>
-            <input type="email" id="email" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background-color: var(--bg-color); color: var(--text-primary);">
+            <input type="email" id="email" name="email" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background-color: var(--bg-color); color: var(--text-primary);">
           </div>
           <div style="display: grid; gap: 8px;">
             <label for="message" style="font-weight: 500;">Message</label>
-            <textarea id="message" rows="5" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background-color: var(--bg-color); color: var(--text-primary); resize: vertical;"></textarea>
+            <textarea id="message" name="message" rows="5" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background-color: var(--bg-color); color: var(--text-primary); resize: vertical;"></textarea>
           </div>
           <button type="submit" class="btn" style="border: none; cursor: pointer; font-size: 1rem;">Send Message</button>
         </form>
