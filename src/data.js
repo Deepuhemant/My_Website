@@ -65,6 +65,38 @@ export const Personal_data = {
             grade: "CGPA: 7.88/10.00"
         }
     ],
+    certifications: [
+        {
+            name: "Data Science Mentorship Program",
+            issuer: "Campusx",
+            date: "Aug 2025",
+            url: "https://example.com/certificate"
+        },
+        {
+            name: "Data Science Bootcamp 2025",
+            issuer: "365 Careers",
+            date: "Dec 2025",
+            url: "https://example.com/certificate"
+        },
+        {
+            name: "MLops complete Bootcamp",
+            issuer: "Krish AI Technology Pvt Ltd",
+            date: "Oct 2025",
+            url: "https://example.com/certificate"
+        },
+        {
+            name: "Power BI",
+            issuer: "Maven Analytics",
+            date: "Nov 2024",
+            url: "https://example.com/certificate"
+        },
+        {
+            name: "MYSQL for Data Analytics and Business Intelligence",
+            issuer: "365 Careers",
+            date: "Sept 2024",
+            url: "https://example.com/certificate"
+        }
+    ],
     skills: {
         languages: ["Python", "SQL", "Java", "JavaScript"],
         databases: ["MySQL", "MongoDB"],

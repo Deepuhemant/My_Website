@@ -40,6 +40,23 @@ export function Resume() {
           `).join('')}
         </div>
 
+        <!-- Certifications -->
+        <div>
+          <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--accent);">Certifications</h3>
+          <div style="display: grid; gap: 20px;">
+            ${Personal_data.certifications.map(cert => `
+              <div style="background-color: var(--card-bg); padding: 25px; border-radius: 12px; border-left: 4px solid #34d399;">
+                <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 10px;">
+                  <h4 style="font-size: 1.4rem;">${cert.name}</h4>
+                  <span style="color: var(--text-secondary);">${cert.date}</span>
+                </div>
+                <div style="margin-bottom: 10px; font-weight: 600; color: #cbd5e1;">${cert.issuer}</div>
+                ${cert.url ? `<a href="${cert.url}" target="_blank" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">View Certificate &rarr;</a>` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
         <!-- Skills -->
         <div>
           <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--accent);">Skills</h3>
