@@ -1,10 +1,11 @@
 import { Personal_data } from '../data.js';
+import profileImg from '../assets/profile.jpg';
 
 export function Home() {
   return `
     <section class="fade-in" style="min-height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px 20px;">
       <div style="margin-bottom: 30px;">
-        <img src="/src/assets/profile.jpg" alt="${Personal_data.personal.name}" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent); box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);">
+        <img src="${profileImg}" alt="${Personal_data.personal.name}" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent); box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);">
       </div>
       <h1 style="font-size: 4rem; margin-bottom: 20px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
         ${Personal_data.personal.name}

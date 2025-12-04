@@ -1,3 +1,10 @@
+import gurgaonImg from './assets/Gurgaon_property_price_prediction.jpg';
+import wineImg from './assets/Wine_quality_ML_Pipeline.png';
+import ragOcrImg from './assets/RAG_system_ocr.png';
+import gurgaonPropImg from './assets/Gurgaon_property_price_prediction.png';
+import chatbotImg from './assets/Langraph_chatbot_with_RAG_MCP.png';
+import movieImg from './assets/Movie_Recommender_system.png';
+
 export const Personal_data = {
     personal: {
         name: "Deepu Kumar",
@@ -115,7 +122,7 @@ export const projects = [
         url: "https://github.com/Deepuhemant/Gurgaon_property_price_prediction",
         stars: 0,
         language: "Python, Jupyter Notebook",
-        image: "/src/assets/Gurgaon_property_price_prediction.jpg"
+        image: gurgaonImg
     },
     {
         name: "Wine Quality ML Pipeline",
@@ -123,7 +130,7 @@ export const projects = [
         url: "https://github.com/Deepuhemant/DataScience_Complete_ML_Pipeline",
         stars: 0,
         language: "Python, Mlflow",
-        image: "/src/assets/Wine_quality_ML_Pipeline.png"
+        image: wineImg
     },
     {
         name: "RAG Chatbot with OCR",
@@ -131,7 +138,7 @@ export const projects = [
         url: "https://github.com/Deepuhemant/RAG_Systems_with_OCR",
         stars: 0,
         language: "Python, Langchain",
-        image: "/src/assets/RAG_system_ocr.png"
+        image: ragOcrImg
     },
     {
         name: "Gurgaon properties price predictor",
@@ -139,7 +146,7 @@ export const projects = [
         url: "https://github.com/Deepuhemant/Gurgaon_properties_price_predictor",
         stars: 0,
         language: "Python",
-        image: "/src/assets/Gurgaon_property_price_prediction.png"
+        image: gurgaonPropImg
     },
     {
         name: "chatbot with RAG and MCP",
@@ -147,7 +154,7 @@ export const projects = [
         url: "https://github.com/Deepuhemant/Chatbot_MCP_RAG_Langgraph",
         stars: 0,
         language: "Python, Langgraph",
-        image: "/src/assets/Langraph_chatbot_with_RAG_MCP.png"
+        image: chatbotImg
     },
     {
         name: "Movie Recommender System",
@@ -155,7 +162,7 @@ export const projects = [
         url: "https://github.com/Deepuhemant/Movie_Recommender_system",
         stars: 0,
         language: "Jupyter Notebook",
-        image: "/src/assets/Movie_Recommender_system.png"
+        image: movieImg
     },
 
 ];
