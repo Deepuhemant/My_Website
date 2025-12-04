@@ -50,7 +50,7 @@ export const Personal_data = {
         {
             role: "Data Science Intern",
             company: "Unified Mentor",
-            duration: "Oct 2021 - March 2022",
+            duration: "July 2024 - Jan 2025",
             details: [
                 "Build a movie recommender system to show the most 5 relevant movies based on the previous watched movies content using similarity score in Sklearn.",
                 "model having highest similarity score predict the similar movie. Build UI using streamlit and deploy it on aws."
