@@ -117,7 +117,7 @@ export const Personal_data = {
 export const projects = [
     {
         name: "Property price prediction",
-        description: "Gurgaon real estate price prediction using machine learning with Streamlit web app and AWS deployment",
+        description: "Gurgaon real estate price prediction using machine learning with Streamlit web app and AWS deployment.",
         url: "https://github.com/Deepuhemant/Gurgaon_property_price_prediction",
         stars: 0,
         language: "Python, Jupyter Notebook",
@@ -125,7 +125,7 @@ export const projects = [
     },
     {
         name: "Wine Quality ML Pipeline",
-        description: "End-to-end ML pipeline for wine quality prediction of wine with MLflow tracking and Flask deployment",
+        description: "End-to-end ML pipeline for wine quality prediction of wine with MLflow tracking and Flask deployment.",
         url: "https://github.com/Deepuhemant/DataScience_Complete_ML_Pipeline",
         stars: 0,
         language: "Python, Mlflow",
@@ -133,7 +133,7 @@ export const projects = [
     },
     {
         name: "RAG Chatbot with OCR",
-        description: "High-performance RAG system combining optimized OCR and semantic search with LangChain integration",
+        description: "High-performance RAG system combining optimized OCR and semantic search with LangChain integration.",
         url: "https://github.com/Deepuhemant/RAG_Systems_with_OCR",
         stars: 0,
         language: "Python, Langchain",
@@ -141,7 +141,7 @@ export const projects = [
     },
     {
         name: "Gurgaon properties price predictor",
-        description: "Production-ready Streamlit app for real estate price prediction deployed on AWS",
+        description: "Production-ready Streamlit app for real estate price prediction deployed on AWS.",
         url: "https://github.com/Deepuhemant/Gurgaon_properties_price_predictor",
         stars: 0,
         language: "Python",
@@ -149,7 +149,7 @@ export const projects = [
     },
     {
         name: "chatbot with RAG and MCP",
-        description: "Intelligent chatbot with RAG and LangGraph for advanced workflow automation and multi-agent collaboration",
+        description: "Intelligent chatbot with RAG and LangGraph for advanced workflow automation and multi-agent collaboration.",
         url: "https://github.com/Deepuhemant/Chatbot_MCP_RAG_Langgraph",
         stars: 0,
         language: "Python, Langgraph",
@@ -157,7 +157,7 @@ export const projects = [
     },
     {
         name: "Movie Recommender System",
-        description: "Movie recommender system using Sklearn similarity scores to predict relevant movies, with a Streamlit UI deployed on AWS",
+        description: "Movie recommender system using Sklearn similarity scores to predict relevant movies, with a Streamlit UI deployed on AWS.",
         url: "https://github.com/Deepuhemant/Movie_Recommender_system",
         stars: 0,
         language: "Jupyter Notebook",
