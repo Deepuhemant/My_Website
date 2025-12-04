@@ -23,12 +23,11 @@ export const Personal_data = {
             duration: "Jun 2024 - Present",
             type: "Remote",
             details: [
-                "XGBoost-based regression pipeline (Gurgaon property valuation): R2 = 0.87, MAE reduction 40% via RFE feature selection and hyperparameter optimization and deployment on AWS.",
-                "Developed a modular ML pipeline featuring automated preprocessing, MLflow experiment logging, Dockerized deployment, CI/CD integration, and production-grade model monitoring using Prometheus and Grafana.",
-                "LangGraph agentic RAG system: LLM orchestration with multi-step reasoning, 78% accuracy improvement via prompt engineering and context refinement.",
-                "End-to-end document ingestion pipeline: OCR for image/text extraction, vector indexing, and retrieval-augmented generation for accurate responses.",
-                "Fine-tuned Llama-3.2 3B using Unsloth LoRA (r=16, alpha=8): ServiceNow AIR dataset with SFT training; achieved 120.28 examples/s tokenization throughput on T4 GPU with 4-bit quantization."
-            ]
+                "Developed an XGBoost regression pipeline for Gurgaon real-estate valuation achieving R² = 0.87, with a 40% decrease in MAE through RFE-based feature selection, hyperparameter tuning, and production deployment on AWS.",
+                "Built a modular machine learning pipeline for wine quality prediction that includes automated data preprocessing, MLflow-based experiment tracking, Docker containerization for deployment, CI/CD integration, and production-level model monitoring with Prometheus and Grafana.",
+                "Developed a chatbot powered by an MCP-based RAG system, leveraging LangGraph for agentic workflows, LLM orchestration with external APIs, retrieval pipelines, and enhanced capabilities such as streaming, state persistence, and evaluation via LangSmith; boosted response accuracy by 78% through prompt engineering and context optimization",
+                "Comprehensive document ingestion workflow that performs OCR to extract text from images, builds vector indexes, and uses retrieval-augmented generation to deliver precise answers.",
+                "Fine-tuned the Llama-3.2 3B model with Unsloth LoRA (r=16, alpha=8) on the ServiceNow AIR dataset using SFT training, reaching a tokenization throughput of 120.28 examples/s on a T4 GPU with 4-bit quantization."]
         },
         {
             role: "MIS Executive and Analyst",
